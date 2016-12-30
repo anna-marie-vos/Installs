@@ -10,3 +10,5 @@ node -v
 npm -v 
 
 npm install sqlite --save
+
+once package.json is made do: npm install
