@@ -1,6 +1,10 @@
 # Installs for clean install
 Step 1: sudo apt install git
 
+git config --global user.email "you@example.com"
+
+git config --global user.name "Your Name"
+
 Step 2: sudo apt-get install nodejs
 
 step 3: sudo apt-get install npm
