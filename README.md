@@ -5,9 +5,7 @@ git config --global user.email "you@example.com"
 
 git config --global user.name "Your Name"
 
-curl -sL https://deb.nodesource.com/setup | sudo -E bash -
-
-sudo apt-get install -y nodejs
+sudo apt install nodejs-legacy
 
 Step 2: sudo apt-get install nodejs
 
