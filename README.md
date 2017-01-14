@@ -20,3 +20,11 @@ npm -v
 npm install sqlite --save
 
 once package.json is made do: npm install
+
+when you get errors that some modules arent not there in the modules:
+
+npm cache clean
+
+rm -rf node_modules
+
+npm install
