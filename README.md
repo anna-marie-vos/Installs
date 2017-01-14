@@ -1,7 +1,9 @@
 # Installs for clean install
-Step 1: sudo apt-get install nodejs
+Step 1: sudo apt install git
 
-step 2: sudo apt-get install npm
+Step 2: sudo apt-get install nodejs
+
+step 3: sudo apt-get install npm
 
 To test (to get the version of the install): 
 
