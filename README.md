@@ -28,3 +28,12 @@ npm cache clean
 rm -rf node_modules
 
 npm install
+
+#Deploying things to heroku
+* create account : www.heroku.com
+* then login to your account (using terminal command): heroku login
+* create application in heroku (using terminal command): heroku create AppName
+* Note: everything needs to be in your master branch of your app.
+* go to master branch, git pull and npm install before sending to heroku
+* When in your master branch do the following terminal command: git push heroku master 
+* then type in terminal command: heroku open
