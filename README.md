@@ -45,3 +45,7 @@ npm install
 * curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
 * sudo apt-get update
 * sudo apt-get install heroku
+
+### Note: error heroku is not a branch of the repository:
+* that is because the cloned repo is not linked to heroku on this pc, so run the following:
+* heroku git:remote -a yourHerokuAppName
