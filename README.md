@@ -49,3 +49,7 @@ npm install
 ### Note: error heroku is not a branch of the repository:
 * that is because the cloned repo is not linked to heroku on this pc, so run the following:
 * heroku git:remote -a yourHerokuAppName
+
+### Note: run heroku locally to check for issues using:
+*  heroku local web
+* Your app should now be running on http://localhost:5000/.
