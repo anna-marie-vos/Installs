@@ -37,3 +37,11 @@ npm install
 * go to master branch, git pull and npm install before sending to heroku
 * When in your master branch do the following terminal command: git push heroku master 
 * then type in terminal command: heroku open
+
+## Note: to install Heroku on you pc type the following in your terminal:
+* Run this from your terminal.
+* The following will add our apt repository and install the CLI:
+* sudo add-apt-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./"
+* curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
+* sudo apt-get update
+* sudo apt-get install heroku
