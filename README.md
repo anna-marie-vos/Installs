@@ -62,6 +62,9 @@ npm install
 * go to the heroku page click on the resources file and search for postgress in the addons and use that.
 * then copy the string in settings and copy that into the knexfile.js
 * in knexfile.js change production setting to : process.env.DATA
+* to seed / migrate your data run in terminal: heroku run bash 
+* npm run knex migrate:latest
+* npm run knex seed:run
 
 ### Note: when bundle.js is not working
 * in package.json add "postinstall":"webpack -p" and add bundle.js in .gitignore
