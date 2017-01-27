@@ -37,6 +37,7 @@ npm install
 * go to master branch, git pull and npm install before sending to heroku
 * When in your master branch do the following terminal command: git push heroku master 
 * then type in terminal command: heroku open
+* to check logs type: heroku logs
 
 ## Note: to install Heroku on you pc type the following in your terminal:
 * Run this from your terminal.
@@ -53,3 +54,14 @@ npm install
 ### Note: run heroku locally to check for issues using:
 *  heroku local web
 * Your app should now be running on http://localhost:5000/.
+
+### Note: when using knex and trying to deploy
+* to check heroku, in terminal type: heroku logs 
+* this will give you the errors as it runs.
+* check if pg is installed, if not install this: npm install pg --save
+* go to the heroku page click on the resources file and search for postgress in the addons and use that.
+* then copy the string and copy that into the webpack
+
+### Note: when bundle.js is not working
+* in package.json add "postinstall":"webpack -p" and add bundle.js in .gitignore
+* this will create a bundle.js in the public folder
