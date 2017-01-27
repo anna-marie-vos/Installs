@@ -66,3 +66,8 @@ npm install
 ### Note: when bundle.js is not working
 * in package.json add "postinstall":"webpack -p" and add bundle.js in .gitignore
 * this will create a bundle.js in the public folder
+* cut and paste babel into dependancies and remove from dev-dependencies
+
+### Note: run postgress database
+* type in terminal : heroku run bash
+* then check that migrations directory in productions in knexFile.js is correct
