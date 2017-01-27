@@ -60,7 +60,8 @@ npm install
 * this will give you the errors as it runs.
 * check if pg is installed, if not install this: npm install pg --save
 * go to the heroku page click on the resources file and search for postgress in the addons and use that.
-* then copy the string and copy that into the webpack in settings
+* then copy the string in settings and copy that into the knexfile.js
+* in knexfile.js change production setting to : process.env.DATA
 
 ### Note: when bundle.js is not working
 * in package.json add "postinstall":"webpack -p" and add bundle.js in .gitignore
