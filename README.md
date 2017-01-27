@@ -71,3 +71,4 @@ npm install
 ### Note: run postgress database
 * type in terminal : heroku run bash
 * then check that migrations directory in productions in knexFile.js is correct
+also see :https://medium.com/modus-create-front-end-development/optimizing-webpack-production-build-for-react-es6-apps-a637e5692aea#.sdghfx639
