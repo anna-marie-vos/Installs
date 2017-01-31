@@ -29,6 +29,8 @@ rm -rf node_modules
 
 npm install
 
+to create a new package.json type in terminal: npm init
+
 #Deploying things to heroku
 * create account : www.heroku.com
 * then login to your account (using terminal command): heroku login
