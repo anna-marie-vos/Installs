@@ -82,3 +82,10 @@ to create a new package.json type in terminal: npm init
 * type in terminal : heroku run bash
 * then check that migrations directory in productions in knexFile.js is correct
 also see :https://medium.com/modus-create-front-end-development/optimizing-webpack-production-build-for-react-es6-apps-a637e5692aea#.sdghfx639
+
+# Creating a React App from scratch
+* git clone repo
+* npm init
+* add .gitignore > add node_modules to ignore
+## node modules to be installed:
+* npm install express --save
