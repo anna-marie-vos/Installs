@@ -14,6 +14,11 @@ step 3: sudo apt-get install npm
 To test (to get the version of the install): 
 
 node -v 
+check node version by installing nvm: https://github.com/creationix/nvm
+Install NVM to check installations on node: 
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
+
+nvm install v6.9.5
 
 npm -v 
 
@@ -27,7 +32,7 @@ npm cache clean
 
 rm -rf node_modules
 
-npm install
+npm install 
 
 to create a new package.json type in terminal: npm init
 
