@@ -92,3 +92,4 @@ also see :https://medium.com/modus-create-front-end-development/optimizing-webpa
 
 # Installing Python
 * ubuntu already has a python installed. To check the version: python --version
+* To install latest version: sudo apt-get upgrade
