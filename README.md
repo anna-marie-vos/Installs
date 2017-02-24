@@ -89,3 +89,6 @@ also see :https://medium.com/modus-create-front-end-development/optimizing-webpa
 * add .gitignore > add node_modules to ignore
 ## node modules to be installed:
 * npm install express --save
+
+# Installing Python
+* ubuntu already has a python installed. To check the version: python --version
