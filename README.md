@@ -46,6 +46,11 @@ to create a new package.json type in terminal: npm init
 * then type in terminal command: heroku open
 * to check logs type: heroku logs
 
+## Host static page with github pages
+* clone the repository to your pc. 
+* checkout a new branch called: gh-pages
+* that's it, you'll find the live site at https://anna-marie-vos.github.io/repoName
+
 ## Note: to install Heroku on you pc type the following in your terminal:
 * Run this from your terminal.
 * The following will add our apt repository and install the CLI:
