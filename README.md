@@ -93,3 +93,8 @@ also see :https://medium.com/modus-create-front-end-development/optimizing-webpa
 # Installing Python
 * ubuntu already has a python installed. To check the version: python --version
 * To install latest version: sudo apt-get upgrade
+
+# Installing Unity on Linux
+* go to the unity forum for linux: https://forum.unity3d.com/threads/unity-on-linux-release-notes-and-known-issues.350256/
+* scroll to the bottom to find the latest revision and download that.
+* to uninstall unity type: sudo apt-get remove unity-editor -y
