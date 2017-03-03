@@ -97,6 +97,7 @@ also see :https://medium.com/modus-create-front-end-development/optimizing-webpa
 
 # Installing Python
 * ubuntu already has a python installed. To check the version: python --version
+* if you want to check which version of python3 is installed: python3 --version
 * To install latest version: sudo apt-get upgrade
 
 # Installing Unity on Linux
