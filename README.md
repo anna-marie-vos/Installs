@@ -1,16 +1,14 @@
 # Installs for clean install
-* Step 1: sudo apt install git
+* Step 1: install latest version: sudo apt-get upgrade
+* Step 2: sudo apt install git
 * git config --global user.email "you@example.com"
 * git config --global user.name "Your Name"
-* sudo apt install nodejs-legacy
-* Step 2: sudo apt-get install nodejs
-* step 3: sudo apt-get install npm
+* Step 3: Follow the instructions for installing nvm: https://github.com/creationix/nvm
+* nvm install v6.9.5
+* Step 4: install node using nvm, follow the nvm instrucitons
+* step 5: sudo apt-get install npm
 * To test (to get the version of the install): 
 * node -v 
-* check node version by installing nvm: https://github.com/creationix/nvm
-* Install NVM to check installations on node: 
-* curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
-* nvm install v6.9.5
 * npm -v 
 * npm install sqlite --save
 * once package.json is made do: npm install
@@ -83,9 +81,12 @@ also see :https://medium.com/modus-create-front-end-development/optimizing-webpa
 # Installing Python
 * ubuntu already has a python installed. To check the version: python --version
 * if you want to check which version of python3 is installed: python3 --version
-* To install latest version: sudo apt-get upgrade
+* To install latest version: sudo apt-get upgrade python3
 
 # Installing Unity on Linux
 * go to the unity forum for linux: https://forum.unity3d.com/threads/unity-on-linux-release-notes-and-known-issues.350256/
 * scroll to the bottom to find the latest revision and download that.
 * to uninstall unity type: sudo apt-get remove unity-editor -y
+
+# Setting up emails
+
