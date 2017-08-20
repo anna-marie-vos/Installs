@@ -31,6 +31,7 @@
 ## Other programs thats nice on Linux
 * shutter
 * Gimp
+* for svg images also checkout: https://askubuntu.com/questions/301540/export-image-as-svg-in-gimp
 * inkscape
 * kazam
 
