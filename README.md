@@ -28,6 +28,10 @@
 * When in your master branch do the following terminal command: git push heroku master 
 * then type in terminal command: heroku open
 * to check logs type: heroku logs
+## Other programs thats nice on Linux
+* shutter
+* inkscape
+* kazam
 
 ## Host static page with github pages
 * clone the repository to your pc. 
