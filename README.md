@@ -30,6 +30,7 @@
 * to check logs type: heroku logs
 ## Other programs thats nice on Linux
 * shutter
+* Gimp
 * inkscape
 * kazam
 
