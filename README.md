@@ -61,7 +61,7 @@
 * this will give you the errors as it runs.
 * check if pg is installed, if not install this: npm install pg --save
 * go to the heroku page click on the resources file and search for postgress in the addons and use that.
-* then copy the string in settings and copy that into the knexfile.js
+* then copy the string in settings under "config vars" and copy that into the knexfile.js
 * in knexfile.js change production setting to : process.env.DATA
 * to seed / migrate your data run in terminal to access the heroku virtual pc: heroku run bash 
 * npm run knex migrate:latest
